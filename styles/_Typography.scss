@@ -1,0 +1,28 @@
+body {
+  font-family: $font;
+  color: $black;
+}
+
+h1 {
+  font-size: $font-h1;
+}
+
+h2 {
+  font-size: $font-h2;
+}
+
+p,
+a,
+strong,
+li,
+input,
+textarea,
+button {
+  font-size: $font-paragraph;
+}
+
+input,
+textarea,
+select {
+  font-family: $font;
+}
