@@ -19,8 +19,7 @@ const Card1 = ({content, title, created_at}: Props) => {
       {content?.map(({layout, content}) => (
         <>
           {/* Turn operator to check if layout is marked as image or text, diplaying content of each as they are both marked 'content' in array */}
-          {layout === 'image' ? <img className={styles.image} src={content}/> : 
-          layout === 'text' ? <p className={styles.text}>{content}</p> : null}
+          {layout === 'image' ? <img className={styles.image} src={content}/> : layout === 'text' ? <p className={styles.text}>{content}</p> : null}
         </>
       ))}
     </>
