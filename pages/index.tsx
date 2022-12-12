@@ -1,7 +1,7 @@
 // Components==============
 import React, { useState, useEffect, useCallback } from "react";
 import Container from "../components/Container/Container";
-import NewsCards from "../components/NewsCard/NewsCards";
+import NewsCards from "../components/NewsCards/NewsCards";
 import { useMediaQ } from "../components/useMediaQ";
 // =========================
 

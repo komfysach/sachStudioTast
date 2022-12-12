@@ -14,6 +14,7 @@ type Props = {
 
 const NewsCards = ({title, id, content, created_at}: Props) => {
   return (
+    // displaying each News card in order
     <div className={styles.container} key={id}>
       {id === 1 ? 
       <>
